@@ -12,4 +12,5 @@ add_executable(${PROJECT_NAME}
    # "Test/test.cpp"
    # "Practice/YokanParty.cpp"
  #"Practice/EncyclopediaOfParentheses.cpp"
- "Practice/LongestCircular.cpp")
+ #"Practice/LongestCircular.cpp"
+ "Practice/CrossSum.cpp")
