@@ -1,0 +1,47 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+//ê≥â
+
+int main()
+{
+	int N;
+	vector<unsigned long long> H;
+
+	cin >> N;
+
+	int maxNum = 0;
+	unsigned long long max = 0;
+	for (size_t i = 1; i <= N; i++)
+	{
+		int h;
+		cin >> h;
+		
+		if (max < h)
+		{
+			max = h;
+			maxNum = i;
+		}
+	}
+
+	cout << maxNum << endl;
+	return 0;
+}
+
+/*
+unsigned char			1byte	0~255
+char					1byte	-128~127
+unsgied short int		2byte	0Å`65535
+short int				2byte	-32768Å`32767
+unsigned int			4byte	0Å`4294967295 < 10^9
+int						4byte	-2147483648Å`2147483647 < 10^9
+long int				4byte	-2147483648Å`2147483647 < 10^9
+unsigned long long int	8byte	0Å`18446744073709551615 < 10^19
+long long int			8byte	-9223372036854775808Å`9223372036854775807 < 10^18
+
+float	4byte
+double	8byte
+
+2êiêîÇ≈ÇÃiÇÃjÉrÉbÉgñ⁄ÇÕ0Ç©ÅH	i & (1 << j) == 0
+2êiêîÇ≈ÇÃiÇÃjÉrÉbÉgñ⁄ÇÕ1Ç©ÅH	i & (1 << j) == 1
+*/

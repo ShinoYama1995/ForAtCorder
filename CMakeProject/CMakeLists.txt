@@ -2,6 +2,7 @@
 # また、サブプロジェクトをここに含めます。
 #
 cmake_minimum_required (VERSION 3.8)
+set(CMAKE_CXX_STANDARD 17)
 
 project ("CMakeProject")
 
@@ -13,4 +14,9 @@ add_executable(${PROJECT_NAME}
    # "Practice/YokanParty.cpp"
  #"Practice/EncyclopediaOfParentheses.cpp"
  #"Practice/LongestCircular.cpp"
- "Practice/CrossSum.cpp")
+ #"Practice/CrossSum.cpp" 
+ #"ABC275/A.cpp" 
+ #"ABC275/B.cpp" 
+ "ABC275/C.cpp" 
+ #"ABC275/D.cpp" 
+)
