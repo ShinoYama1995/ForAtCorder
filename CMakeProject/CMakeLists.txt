@@ -9,5 +9,7 @@ include_directories(${PROJECT_SOURCE_DIR}/include)
 
 add_executable(${PROJECT_NAME}
    # template.cpp
-    "Test/test.cpp"
-)
+   # "Test/test.cpp"
+   # "Practice/YokanParty.cpp"
+ #"Practice/EncyclopediaOfParentheses.cpp"
+ "Practice/LongestCircular.cpp")
